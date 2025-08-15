@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  color: darkcyan;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px 0px;
+  padding: 5px 0;
+  border-bottom: 3px double darkcyan;
+}
+
+.header img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.header-nav {
+  width: 40%;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: deepskyblue;
+}
+
+.header button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1px;
+}
+
+.cape {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 50px;
+}
+
+.cape-img {
+  width: 100%;
+  height: 100%;
+}
+
+.cape-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cape-info p {
+  color: orange;
+  border-bottom: 2px dotted darkcyan;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.cape-info span {
+  color: deepskyblue;
+}
+
+.cape-info img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.cape-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.forest {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 25px;
+}
+
+.forest h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.forest-img {
+  width: 35%;
+}
+
+.forest-img img {
+  width: 100%;
+}
+
+.forest-info {
+  width: 63%;
+}
+
+.forest-info p {
+  text-align: justify;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.tour {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tour h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.tour-img {
+  width: 60%;
+}
+
+.tour-img img {
+  width: 100%;
+}
+
+.tour-form {
+  width: 35%;
+}
+
+.tour-form > :first-child {
+  text-align: center;
+  color: white;
+  background-color: darkcyan;
+  padding: 25px;
+}
+
+.tour-form > :nth-child(n + 2):nth-child(-n + 7) {
+  background-color: lightgray;
+  padding: 20px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour-form select {
+  width: 60%;
+}
+
+.tour-form input {
+  width: 60%;
+  padding: 5px 0;
+}
+
+.tour-form > :nth-child(n + 8) p {
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.footer {
+  color: white;
+  background-color: deepskyblue;
+  margin-top: 20px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
